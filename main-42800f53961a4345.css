@@ -1,0 +1,102 @@
+.theorem_body > div > span {
+  text-align: right;
+  min-width: 6rem;
+  display: inline-block;
+  margin-right: 1rem;
+}
+.theorem_body > div > span > span {
+  display: inline-block;
+  margin: 2px;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+.theorem_body span.hyp > span {
+  background-color: #8a9cff;
+  color: white;
+}
+.theorem_body span.concl > span {
+  background-color: #ba1818;
+  color: white;
+}
+
+h1.theorem_header.theorem_header {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+h1.theorem_header.theorem_header .badge {
+  text-align: right;
+  min-width: 4rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+h1.theorem_header.theorem_header .badge > span {
+  display: inline-block;
+  margin: 2px;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+h1.theorem_header.theorem_header .badge > span.axiom {
+  background-color: #8a9cff;
+  color: white;
+}
+h1.theorem_header.theorem_header .badge > span.thm {
+  background-color: #ba1818;
+  color: white;
+}
+h1.theorem_header.theorem_header .badge > span.def {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: x-small;
+  }
+}
+html {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10rem;
+}
+
+body {
+  background-color: #aec1cf;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+
+div.container {
+  padding: 16px;
+  margin: auto;
+  background-color: white;
+}
+@media (min-width: 1024px) {
+  div.container {
+    width: 960px;
+  }
+}
+
+div.theorem_list, div.theorem_view {
+  font-family: math;
+}
+
+div.theorem_view h1 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
