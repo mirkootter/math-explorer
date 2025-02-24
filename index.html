@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mm0u Explorer</title>
+    <base href="/math-explorer/" />
+    <link rel="stylesheet" href="/math-explorer/main-42800f53961a4345.css" integrity="sha384&#x2D;uH6HTbuVTz5ke2Dh6&#x2B;oow5KDjZrWFSlHJK6IC3ZDYzaPj32gsXdVahevbHuncZTD"/>
+  <link rel="modulepreload" href="/math-explorer/frontend-3bfd86f99ff03907.js" crossorigin="anonymous" integrity="sha384-lJtRLBKjIUbZCS2GsdXm3lFeD9imyro+fp4/TIWFDKppFETBMjMIy+/dO/ABTlod"><link rel="modulepreload" href="/math-explorer/snippets/dioxus-interpreter-js-654dc4519bce26d0/inline0.js" crossorigin="anonymous" integrity="sha384-1iW0RxcSbt2DGTZM3QBeYd0E1Sv9qanAKKVMYXHVGozEBSaWUkiqjM+bZgCFocyr"><link rel="modulepreload" href="/math-explorer/snippets/dioxus-interpreter-js-654dc4519bce26d0/src/js/hydrate.js" crossorigin="anonymous" integrity="sha384-ZzKUajVosyqCO99iQWPMGwSI+xcghAT8VCzddmveJnUyy4qM6tKQTluQPxS1qNx4"><link rel="modulepreload" href="/math-explorer/snippets/dioxus-interpreter-js-654dc4519bce26d0/src/js/patch_console.js" crossorigin="anonymous" integrity="sha384-5JBHRbmtlt+1itRKLdoRs4hjdIQ0pUfmNhwtAJCq+u7x+x3KJJzzps279xv7KZFv"><link rel="modulepreload" href="/math-explorer/snippets/dioxus-web-5d091ca12ff51ac9/inline1.js" crossorigin="anonymous" integrity="sha384-xqSmg18C2FmchYWi9fb4cSqOW4ZNNo4b7NWZK1eW+fOqg4no+2F+zETwKUf1PJy3"><link rel="modulepreload" href="/math-explorer/snippets/dioxus-cli-config-558feeeb1c7afd2f/inline0.js" crossorigin="anonymous" integrity="sha384-3XQ+Ypf8XSqF6BJtAZczoVI81ROSQk8ruW6LRRz2z+HYqfLXpJEFcfp/jbl7sXk4"><link rel="modulepreload" href="/math-explorer/snippets/dioxus-web-5d091ca12ff51ac9/src/js/eval.js" crossorigin="anonymous" integrity="sha384-2DHjVGrzcpbms06h5LAGWYB1zXEqfWTjATq1YsBBgX1CE2W+T4mRjoljwlXKhTcj"><link rel="modulepreload" href="/math-explorer/snippets/dioxus-interpreter-js-654dc4519bce26d0/src/js/common.js" crossorigin="anonymous" integrity="sha384-lNXbLTw7Z18z5HtM0HV3R7/8J+II5Ei18I53QeIZolR+l1nGEBr27UjMtT/DJpiC"><link rel="modulepreload" href="/math-explorer/snippets/dioxus-web-5d091ca12ff51ac9/inline0.js" crossorigin="anonymous" integrity="sha384-2v8X0XAeO26J0vmoLhIbIeAjVzFnrY9iLhlYJcksTMp7Ip2tbDcoX4vD/hCan7M7"><link rel="preload" href="/math-explorer/frontend-3bfd86f99ff03907_bg.wasm" crossorigin="anonymous" integrity="sha384-KaTCHCLRy/shBjYGZj11Vujw9viWuL+43uJr30kVTQl9ASJCrQqyzFEt92rPUAVm" as="fetch" type="application/wasm"></head>
+  <body>
+    <div id="main"></div>
+  
+<script type="module">
+import init, * as bindings from '/math-explorer/frontend-3bfd86f99ff03907.js';
+const wasm = await init({ module_or_path: '/math-explorer/frontend-3bfd86f99ff03907_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>
